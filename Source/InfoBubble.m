@@ -28,7 +28,7 @@
 
 @end
 
-
+// TODO: should be replaced by a popover
 
 @implementation InfoBubble
 
