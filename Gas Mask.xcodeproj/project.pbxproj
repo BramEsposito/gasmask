@@ -32,6 +32,7 @@
 		351D904510E76F7100CA6B5E /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 351D904110E76F7100CA6B5E /* Help */; };
 		3522BEE0153316AA00035B90 /* ExtendedNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3522BEDF153316AA00035B90 /* ExtendedNSArray.m */; };
 		3522BEE31533552200035B90 /* ExtendedNSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3522BEE21533552200035B90 /* ExtendedNSPredicate.m */; };
+		35262F737B495BF19171B845 /* Pods_Gas_Mask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDCDB2B39BD1D5716C1C0DA /* Pods_Gas_Mask.framework */; };
 		3528ECE910E3F87E003C8CB9 /* Syncing_arrows1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3528ECE310E3F87E003C8CB9 /* Syncing_arrows1.png */; };
 		3528ECEA10E3F87E003C8CB9 /* Syncing_arrows2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3528ECE410E3F87E003C8CB9 /* Syncing_arrows2.png */; };
 		3528ECEB10E3F87E003C8CB9 /* Syncing_arrows3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3528ECE510E3F87E003C8CB9 /* Syncing_arrows3.png */; };
@@ -142,7 +143,6 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		E99AD9A05BDE6D9CFA6F6C05 /* libPods-Gas Mask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7776CE10598E83C9D4BC4202 /* libPods-Gas Mask.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -377,9 +377,9 @@
 		35FBCA501223181000860FDA /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		35FC65991114B12600BD18C3 /* launcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = launcher.m; path = Source/launcher.m; sourceTree = "<group>"; };
 		35FC65A71114B29A00BD18C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		7776CE10598E83C9D4BC4202 /* libPods-Gas Mask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gas Mask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.info; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Gas Mask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas Mask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDCDB2B39BD1D5716C1C0DA /* Pods_Gas_Mask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gas_Mask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,8 +402,8 @@
 				35C8D5A911144F7000B4242D /* Carbon.framework in Frameworks */,
 				25B640F328494E7200B22FBC /* Sparkle.framework in Frameworks */,
 				35FBCA511223181000860FDA /* libicucore.dylib in Frameworks */,
-				E99AD9A05BDE6D9CFA6F6C05 /* libPods-Gas Mask.a in Frameworks */,
 				25B640F42849546A00B22FBC /* SystemConfiguration.framework in Frameworks */,
+				35262F737B495BF19171B845 /* Pods_Gas_Mask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +521,7 @@
 			children = (
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
-				7776CE10598E83C9D4BC4202 /* libPods-Gas Mask.a */,
+				CFDCDB2B39BD1D5716C1C0DA /* Pods_Gas_Mask.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
