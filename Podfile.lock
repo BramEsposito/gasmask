@@ -1,16 +1,20 @@
 PODS:
-  - Sparkle (1.23.0)
+  - ShortcutRecorder (3.3.0)
+  - Sparkle (2.1.0)
 
 DEPENDENCIES:
-  - Sparkle (= 1.23.0)
+  - ShortcutRecorder (~> 3.3.0)
+  - Sparkle (~> 2.1.0)
 
 SPEC REPOS:
   trunk:
+    - ShortcutRecorder
     - Sparkle
 
 SPEC CHECKSUMS:
-  Sparkle: 55b1a87ba69d56913375a281546b7c82dec95bb0
+  ShortcutRecorder: 49b4c7f615133f02d0b23f91edfca9046ec0e1b3
+  Sparkle: 7f5f6d4328458515e23272f4138e610c1fa3e32d
 
-PODFILE CHECKSUM: 00604c3153d1f265733504e99f619f2ef182cb2c
+PODFILE CHECKSUM: 0250379dfa8189e1f8f9104a37c494d1d9519088
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.11.3
