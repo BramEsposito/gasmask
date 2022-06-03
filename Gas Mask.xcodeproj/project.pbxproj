@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		25B640F328494E7200B22FBC /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556CEDF10D6B68C00C7301E /* Sparkle.framework */; };
+		25B640F42849546A00B22FBC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3545DCE310E3997200EBA66D /* SystemConfiguration.framework */; };
 		350920B51226EB9F00ACA0F4 /* HostsDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 350920B41226EB9F00ACA0F4 /* HostsDownloader.m */; };
 		350920C11226ED5100ACA0F4 /* LocalHostsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 350920C01226ED5100ACA0F4 /* LocalHostsManager.m */; };
 		350920C51226EDD600ACA0F4 /* AbstractHostsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 350920C41226EDD600ACA0F4 /* AbstractHostsManager.m */; };
@@ -62,7 +63,6 @@
 		3544E2D310E4CCB1009AC525 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 3544E2D210E4CCB1009AC525 /* Map.m */; };
 		3545DC7310E38DDE00EBA66D /* Offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 3545DC7210E38DDE00EBA66D /* Offline.png */; };
 		3545DCA910E396CF00EBA66D /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 3545DCA810E396CF00EBA66D /* Network.m */; };
-		3545DCE410E3997200EBA66D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3545DCE310E3997200EBA66D /* SystemConfiguration.framework */; };
 		3546AF7815318F48006B293B /* CombinedHostsPredicateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3546AF7715318F48006B293B /* CombinedHostsPredicateController.m */; };
 		3546AF7F1531B7C2006B293B /* CombinedHostsPredicateEditorRowTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3546AF7E1531B7C2006B293B /* CombinedHostsPredicateEditorRowTemplate.m */; };
 		35498EDB12187F5D00E46952 /* Offline_rollover.png in Resources */ = {isa = PBXBuildFile; fileRef = 35498EDA12187F5D00E46952 /* Offline_rollover.png */; };
@@ -399,11 +399,11 @@
 				3556CE8410D6B3CF00C7301E /* ShortcutRecorder.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				354E7F8110AEFBC500FC4757 /* Security.framework in Frameworks */,
-				3545DCE410E3997200EBA66D /* SystemConfiguration.framework in Frameworks */,
 				35C8D5A911144F7000B4242D /* Carbon.framework in Frameworks */,
 				25B640F328494E7200B22FBC /* Sparkle.framework in Frameworks */,
 				35FBCA511223181000860FDA /* libicucore.dylib in Frameworks */,
 				E99AD9A05BDE6D9CFA6F6C05 /* libPods-Gas Mask.a in Frameworks */,
+				25B640F42849546A00B22FBC /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
