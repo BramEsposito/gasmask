@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		25B640F328494E7200B22FBC /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3556CEDF10D6B68C00C7301E /* Sparkle.framework */; };
 		350920B51226EB9F00ACA0F4 /* HostsDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 350920B41226EB9F00ACA0F4 /* HostsDownloader.m */; };
 		350920C11226ED5100ACA0F4 /* LocalHostsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 350920C01226ED5100ACA0F4 /* LocalHostsManager.m */; };
 		350920C51226EDD600ACA0F4 /* AbstractHostsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 350920C41226EDD600ACA0F4 /* AbstractHostsManager.m */; };
@@ -400,6 +401,7 @@
 				354E7F8110AEFBC500FC4757 /* Security.framework in Frameworks */,
 				3545DCE410E3997200EBA66D /* SystemConfiguration.framework in Frameworks */,
 				35C8D5A911144F7000B4242D /* Carbon.framework in Frameworks */,
+				25B640F328494E7200B22FBC /* Sparkle.framework in Frameworks */,
 				35FBCA511223181000860FDA /* libicucore.dylib in Frameworks */,
 				E99AD9A05BDE6D9CFA6F6C05 /* libPods-Gas Mask.a in Frameworks */,
 			);
@@ -1052,12 +1054,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Gas Mask/Pods-Gas Mask-frameworks.sh",
 				"${PODS_ROOT}/Sparkle/Sparkle.framework",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
