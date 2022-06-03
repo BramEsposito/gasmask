@@ -58,8 +58,6 @@
 		353A80FC10B020B10005CAD1 /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 353A80FB10B020B10005CAD1 /* UserDefaults.plist */; };
 		353D18BC1114C0C1005C4E54 /* applicationIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 354E80A010AF33C100FC4757 /* applicationIcon.icns */; };
 		3541CE0510E4AF9B00FA00CB /* SyncingArrowsBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3541CE0410E4AF9B00FA00CB /* SyncingArrowsBadge.m */; };
-		3541CEA910E4B8F800FA00CB /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3541CEA810E4B8F800FA00CB /* Growl.framework */; };
-		3541CEB110E4B90E00FA00CB /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3541CEA810E4B8F800FA00CB /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3544E2D310E4CCB1009AC525 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 3544E2D210E4CCB1009AC525 /* Map.m */; };
 		3545DC7310E38DDE00EBA66D /* Offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 3545DC7210E38DDE00EBA66D /* Offline.png */; };
 		3545DCA910E396CF00EBA66D /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 3545DCA810E396CF00EBA66D /* Network.m */; };
@@ -165,7 +163,6 @@
 			files = (
 				354DDD0E114EBC9700DB76D7 /* CrashReportSender.framework in CopyFiles */,
 				3564D7B511480D2800F7EF4D /* BGHUDAppKit.framework in CopyFiles */,
-				3541CEB110E4B90E00FA00CB /* Growl.framework in CopyFiles */,
 				3556CEA110D6B44A00C7301E /* ShortcutRecorder.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +399,6 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				354E7F8110AEFBC500FC4757 /* Security.framework in Frameworks */,
 				3545DCE410E3997200EBA66D /* SystemConfiguration.framework in Frameworks */,
-				3541CEA910E4B8F800FA00CB /* Growl.framework in Frameworks */,
 				35C8D5A911144F7000B4242D /* Carbon.framework in Frameworks */,
 				35FBCA511223181000860FDA /* libicucore.dylib in Frameworks */,
 				E99AD9A05BDE6D9CFA6F6C05 /* libPods-Gas Mask.a in Frameworks */,
