@@ -5,7 +5,7 @@ target 'Gas Mask' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  platform :osx, "11.1"
+  platform :osx, "10.11"
 
   # Pods for Gas Mask
   pod 'Sparkle', '~> 2.1.0'
