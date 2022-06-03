@@ -1209,7 +1209,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ee.clockwise.gmask.launcher;
 				PRODUCT_NAME = Launcher;
 				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -1239,7 +1238,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ee.clockwise.gmask.launcher;
 				PRODUCT_NAME = Launcher;
 				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -1298,7 +1296,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ee.clockwise.gmask;
 				PRODUCT_NAME = "Gas Mask";
 				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -1334,7 +1331,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -1368,7 +1364,6 @@
 				ONLY_ACTIVE_ARCH = NO;
 				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--deep";
 				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
