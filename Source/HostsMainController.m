@@ -61,6 +61,7 @@
 
 static VDKQueue* queue = nil;
 static HostsMainController *sharedInstance = nil;
+static NSArray *sharedControllers = nil;
 
 + (HostsMainController*)defaultInstance
 {
@@ -70,27 +71,20 @@ static HostsMainController *sharedInstance = nil;
 	return sharedInstance;
 }
 
+- (id) init {
+    [self initializeControllers];
+    return [[[self class] alloc] initWithNibNamed:@"Editor" bundle:nil];
+}
+
 - (id)initWithCoder:(NSCoder *)decoder
 {
-    if (sharedInstance) {
-        return sharedInstance;
-    }
-	if (self = [super initWithCoder:decoder]) {
-		logDebug(@"Creating Hosts Controller");
-		
-		controllers = [NSArray arrayWithObjects:
-					   [LocalHostsController new],
-					   [RemoteHostsController new],
-                       [CombinedHostsController new],
-					   nil];
-		
-		for (int i=0; i<[controllers count]; i++) {
-			[[controllers objectAtIndex:i] setDelegate:self];
-		}
+    self = [super initWithCoder:decoder];
+    
+    [self initializeControllers];
+    sharedInstance = self;
+    return self;
+}
 
-        queue = [[VDKQueue alloc] init];
-        [queue setDelegate:self];
-        [self startTrackingFileChanges];
 
         filesCount = 0;
 
