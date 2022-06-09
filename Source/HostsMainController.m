@@ -64,6 +64,9 @@ static HostsMainController *sharedInstance = nil;
 
 + (HostsMainController*)defaultInstance
 {
+    if (!sharedInstance) {
+        sharedInstance = [[HostsMainController alloc] init];
+    }
 	return sharedInstance;
 }
 
