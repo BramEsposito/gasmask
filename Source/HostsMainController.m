@@ -85,14 +85,35 @@ static NSArray *sharedControllers = nil;
     return self;
 }
 
+- (void)initializeControllers
+{
+    logDebug(@"Creating Hosts Controllers");
+    
+    if ([sharedControllers count] == 0) {
+        
+        controllers = [NSArray arrayWithObjects:
+                       [LocalHostsController new],
+                       [RemoteHostsController new],
+                       [CombinedHostsController new],
+                       nil];
+        sharedControllers = controllers;
+    } else {
+        // Treat controllers Array as a Singleton, and share them between HostsMainController Instances
+        controllers = sharedControllers;
+        [self addGroups];
+        
+        [self updateFilesCount];
+    }
+    
+    for (int i=0; i<[controllers count]; i++) {
+        [[controllers objectAtIndex:i] setDelegate:self];
+    }
 
-        filesCount = 0;
+    queue = [[VDKQueue alloc] init];
+    [queue setDelegate:self];
+    [self startTrackingFileChanges];
 
-		sharedInstance = self;
-		return self;
-	}
-	
-    return sharedInstance;	
+    filesCount = 0;
 }
 
 - (void)load
