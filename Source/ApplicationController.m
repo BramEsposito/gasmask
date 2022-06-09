@@ -268,17 +268,15 @@ static ApplicationController *sharedInstance = nil;
 - (void)activatePreviousFile:(NSNotification *)note
 {
 	Hosts *hosts = [hostsController activatePrevious];
-	if ([Preferences useGrowl]) {
-		[self notifyHostsChange:hosts];
-	}
+    
+    [self notifyHostsChange:hosts];
 }
 
 - (void)activateNextFile:(NSNotification *)note
 {
 	Hosts *hosts = [hostsController activateNext];
-	if ([Preferences useGrowl]) {
-		[self notifyHostsChange:hosts];
-	}
+   
+    [self notifyHostsChange:hosts];
 }
 
 - (void)notifyOfFileRestored:(NSNotification *)note

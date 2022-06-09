@@ -83,7 +83,6 @@
 		355F5C5B12244B67006C2884 /* LocalHostsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355F5C5A12244B67006C2884 /* LocalHostsController.m */; };
 		355F5CA512244F28006C2884 /* RemoteHostsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355F5CA412244F28006C2884 /* RemoteHostsController.m */; };
 		355F5CDF122452BE006C2884 /* AbstractHostsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355F5CDE122452BE006C2884 /* AbstractHostsController.m */; };
-		356218B510E52CD600772473 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 356218B410E52CD600772473 /* Growl Registration Ticket.growlRegDict */; };
 		3562197910E52E8E00772473 /* AboutBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3562197810E52E8E00772473 /* AboutBox.xib */; };
 		35621A3110E52F6C00772473 /* AboutBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35621A3010E52F6C00772473 /* AboutBoxController.m */; };
 		3564D78F11480CFC00F7EF4D /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3564D78E11480CFC00F7EF4D /* BGHUDAppKit.framework */; };
@@ -295,7 +294,6 @@
 		355F5CA412244F28006C2884 /* RemoteHostsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteHostsController.m; path = Source/RemoteHostsController.m; sourceTree = "<group>"; };
 		355F5CDD122452BE006C2884 /* AbstractHostsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractHostsController.h; path = Source/AbstractHostsController.h; sourceTree = "<group>"; };
 		355F5CDE122452BE006C2884 /* AbstractHostsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractHostsController.m; path = Source/AbstractHostsController.m; sourceTree = "<group>"; };
-		356218B410E52CD600772473 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Growl Registration Ticket.growlRegDict"; path = "Resources/Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
 		3562197810E52E8E00772473 /* AboutBox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutBox.xib; sourceTree = "<group>"; };
 		35621A2F10E52F6C00772473 /* AboutBoxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutBoxController.h; path = Source/AboutBoxController.h; sourceTree = "<group>"; };
 		35621A3010E52F6C00772473 /* AboutBoxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutBoxController.m; path = Source/AboutBoxController.m; sourceTree = "<group>"; };
@@ -504,7 +502,6 @@
 				351D904110E76F7100CA6B5E /* Help */,
 				3545DC8E10E38F1800EBA66D /* Images */,
 				352F48D110DA90FE000003BE /* default.hst */,
-				356218B410E52CD600772473 /* Growl Registration Ticket.growlRegDict */,
 				353A80FB10B020B10005CAD1 /* UserDefaults.plist */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				3579F0CF1114B7B900123416 /* Launcher-Info.plist */,
@@ -1001,7 +998,6 @@
 				3528ECEE10E3F87E003C8CB9 /* Syncing_arrows6.png in Resources */,
 				35A183A81A0ACF37002D6289 /* menuIcon@2x.tiff in Resources */,
 				35B0499B1A462AE900EB89CA /* Activated@2x.png in Resources */,
-				356218B510E52CD600772473 /* Growl Registration Ticket.growlRegDict in Resources */,
 				3562197910E52E8E00772473 /* AboutBox.xib in Resources */,
 				35D4CB0D10E651CD00B9F63A /* About Box Image.png in Resources */,
 				358C36E51A0D6F2E00161C98 /* Combined_File_yosemite.tiff in Resources */,
