@@ -100,15 +100,18 @@
         rowCount = [predicateEditor numberOfRows];
         int height = rowCount * rowHeight;
         int difference = (rowCount - previousRowCount) * rowHeight;
+        int editorHeight = [parentView frame].size.height - height;
         
+        // Set Hosts File Text Editor ScrollView
         NSRect frame = [lowerScrollView frame];
         frame.origin.y = 0;
-        frame.size.height = [parentView frame].size.height - height;
+        frame.size.height = editorHeight;
         [lowerScrollView setFrame:frame];
         
+        // Set Predicate Editor ScrollView
         NSRect frame2 = [scrollView frame];
-        frame2.size.height = height;       
-        frame2.origin.y -= difference;
+        frame2.size.height = height;
+        frame2.origin.y = editorHeight;
         [scrollView setFrame:frame2];
         
         if ([[selectedHostsFile hostsFiles] count] == 0 && hintView == nil) {
