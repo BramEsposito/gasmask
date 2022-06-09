@@ -101,8 +101,6 @@ static NSArray *sharedControllers = nil;
         // Treat controllers Array as a Singleton, and share them between HostsMainController Instances
         controllers = sharedControllers;
         [self addGroups];
-        
-        [self updateFilesCount];
     }
     
     for (int i=0; i<[controllers count]; i++) {
@@ -114,6 +112,8 @@ static NSArray *sharedControllers = nil;
     [self startTrackingFileChanges];
 
     filesCount = 0;
+    
+    [self updateFilesCount];
 }
 
 - (void)load
